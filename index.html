@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Noaa-scat-tools : Collection of tools and utilities to facilitate data management of SCAT data during oil spills">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Noaa-scat-tools</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/researchplanninginc/NOAA-SCAT-Tools">View on GitHub</a>
+
+          <h1 id="project_title">Noaa-scat-tools</h1>
+          <h2 id="project_tagline">Collection of tools and utilities to facilitate data management of SCAT data during oil spills</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/researchplanninginc/NOAA-SCAT-Tools/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/researchplanninginc/NOAA-SCAT-Tools/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><img src="http://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg" alt="NOAA"></p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/NOAA_logo.svg/200px-NOAA_logo.svg.png" alt="noaa2"></p>
+
+<p>These tools include files, scripts, and executables that have been developed for managing Shoreline Cleanup Assessment Technique (SCAT) data by the NOAA Emergency Response Division (ERD).  This toolbox includes five major components: </p>
+
+<p>1.) Microsoft Access database and interface to store and enter tabular SCAT data </p>
+
+<p>2.) ESRI shapefile templates to store spatial SCAT data</p>
+
+<p>3.) ESRI ArcGIS toolboxes and python scripts to facilitate the entry and analysis of spatial and tabular SCAT data in ArcGIS</p>
+
+<p>4.) A stand-alone report generator program to perform rapid tabular data analysis and generate summary products, and;</p>
+
+<p>5.) A stand-alone spatial snapping program to conduct rapid spatial analysis and generate summary products.  </p>
+
+<h3>
+<a name="microsoft-access-database" class="anchor" href="#microsoft-access-database"><span class="octicon octicon-link"></span></a>Microsoft Access Database</h3>
+
+<p>This database is the primary tool used to store attribute information describing the results of SCAT surveys.  The database currently consists of two separate Microsoft Access .mdb files.  One file contains the user interface including forms, queries, and VBA code that allows automation of multiple tasks.  The second file contains data.  Separating the Access files that contain the interface and associated logic from the data allows greater data security during updates or modifications to the database interface and tools during use in an actual incident.  Also, interface-data separation allows easier use of these tools in incidents that require temporary child databases to be created to permit multiple analysts to conduct parallel data entry. </p>
+
+<h3>
+<a name="shapefile-templates" class="anchor" href="#shapefile-templates"><span class="octicon octicon-link"></span></a>Shapefile Templates</h3>
+
+<p>Included with these tools are a variety of template ESRI shapefiles intended to be used to store the primary spatial data types.  </p>
+
+<h3>
+<a name="arcgis-toolboxscripts" class="anchor" href="#arcgis-toolboxscripts"><span class="octicon octicon-link"></span></a>ArcGIS Toolbox/Scripts</h3>
+
+<p>This toolbox contains a set of tools intended for use in ESRIs ArcGIS software that perform various tasks that are repeated daily.  These tools were all developed using Python scripts.  </p>
+
+<h3>
+<a name="snapping-executable" class="anchor" href="#snapping-executable"><span class="octicon octicon-link"></span></a>Snapping Executable</h3>
+
+<p>Many data summary and reporting requirements require summarization of surface oiling results from multiple zones recorded during multiple surveys which may overlap along the same unique length of shoreline.  This tool generates outputs for this purpose by snapping the polylines contained in the ESRI shapefile representing oil zones to their parent segment contained in the ESRI shapefile representing shoreline segments.  The tool generates ESRI shapefiles containing the spatial results of this operation, as well as calculates the sum lengths covered within specific summary categories.  </p>
+
+<h3>
+<a name="report-generation-executable" class="anchor" href="#report-generation-executable"><span class="octicon octicon-link"></span></a>Report Generation Executable</h3>
+
+<p>This tool is a stand-alone executable intended to be run whenever tabular outputs are required that summarize oiling conditions, segment statuses, etc. over the course of the incident such as tabular deliverables reporting segment statuses for all segments.  The report generator tool reads the MS Access database and generates a folder of various reports in multiple output formats, including DBF, CSV, MS Excel, and HTML.  </p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Check out the documentation here or in the wiki.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Noaa-scat-tools maintained by <a href="https://github.com/researchplanninginc">researchplanninginc</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
