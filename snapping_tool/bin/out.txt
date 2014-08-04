@@ -1,0 +1,40 @@
+ Volume in drive C is Default
+ Volume Serial Number is EE81-F001
+
+ Directory of C:\Users\michael.katz\Documents\work\SCATdb\SCATdbUtils\Snap\bin\Debug\bin
+
+12/11/2012  03:03 PM    <DIR>          .
+12/11/2012  03:03 PM    <DIR>          ..
+01/19/2010  08:59 AM         7,184,384 gdal_fw.dll
+01/19/2010  08:58 AM         1,028,096 geos_fw.dll
+01/19/2010  08:58 AM           126,976 geotiff_fw.dll
+08/05/2008  10:38 AM           815,104 hdf5dll.dll
+03/26/2008  09:12 AM           405,504 hdf_fw.dll
+07/27/2009  10:13 AM           118,784 jpeg12_osgeo.dll
+03/15/2009  06:01 PM           118,784 jpeg_osgeo.dll
+08/22/2007  03:08 PM           176,128 libcurl.dll
+08/22/2007  03:08 PM         1,064,960 libeay32.dll
+11/19/2007  03:32 PM           151,552 libexpat.dll
+02/16/2006  10:14 AM         1,064,960 libmysql.dll
+10/18/2007  09:30 AM           106,496 libpq.dll
+01/19/2010  08:58 AM           483,328 libtiff_fw.dll
+06/23/2006  07:57 PM         1,740,800 lti_dsdk_dll.dll
+03/26/2008  09:12 AM            98,304 mfhdf_fw.dll
+06/05/2006  11:02 AM            61,440 NCScnet_fw.dll
+06/05/2006  11:02 AM            69,632 NCSEcwC_fw.dll
+06/05/2006  11:02 AM         1,163,264 NCSEcw_fw.dll
+06/05/2006  11:02 AM           151,552 NCSUtil_fw.dll
+07/12/2005  05:50 PM           204,800 netcdf.dll
+01/19/2010  08:58 AM           122,880 ogdi_32b1.dll
+01/19/2010  09:00 AM            73,728 ogr_wrap.dll
+01/19/2010  09:00 AM            53,248 osr_wrap.dll
+12/11/2012  03:03 PM                 0 out.txt
+08/04/2010  11:13 AM           220,160 proj.dll
+07/12/2005  05:50 PM           393,264 sqlite3.dll
+08/22/2007  03:08 PM           200,704 ssleay32.dll
+07/29/2005  08:57 AM           102,400 szlibdll.dll
+02/05/2008  05:57 PM         1,757,184 xerces-c_2_7.dll
+08/22/2007  03:08 PM            73,728 zlib1.dll
+02/12/2008  11:07 PM            73,728 zlib_osgeo.dll
+              31 File(s)     19,405,872 bytes
+               2 Dir(s)  175,715,000,320 bytes free
